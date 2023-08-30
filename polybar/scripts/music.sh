@@ -11,5 +11,5 @@ if [[ $player_status = "Playing" ]]; then
 elif [[ $player_status = "Paused" ]]; then
     echo "%{T7}%{F#999999}  $metadata %{F-}%{T-}"
 else
-    echo "%{F#999999}No Media %{F-}"
+    echo "%{F#999999}󰎊   %{F-}"
 fi
